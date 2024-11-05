@@ -12,7 +12,7 @@ import random
 from time import sleep
 import asyncio
 # Replace with your Gemini API key
-my_api_key = "AIzaSyB_lwJ9J-X1JHuJosy2d41F2OqrlGq3bJY"
+my_api_key = ""
 
 os.environ["GOOGLE_API_KEY"] = my_api_key
 

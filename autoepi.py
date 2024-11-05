@@ -1,5 +1,5 @@
 # autoepistemic_logic_solver.py
-
+##Incomplete implementations !!
 class Proposition:
     """Represents a simple proposition or fact."""
     def __init__(self, name):

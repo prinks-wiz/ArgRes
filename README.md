@@ -1,4 +1,4 @@
-# ArgRes: Reasoning in LLMs for Clinical Decision Making
+# ArgRes: Reasoning in LLMs 
 
 ## Overview
 ArgRes introduces a multi-agent system with an expert system-inspired architecture designed to enhance clinical decision-making. In this system, LLMs act as expert and judge agents. The Creator agent analyzes the task and generates expert agents based on keywords extracted using MeSH. The Reasoner Agent formulates arguments related to the posed question, efficiently utilizing Retrieval-Augmented Generation (RAG) to access relevant sources. These arguments are evaluated by Domain Expert Agents, and an Argument-Reasoning tuple is sent to the Judge agent. Using autoepistemic logic, the Judge evaluates the consistency of the arguments, iterating the process until a conclusion is reached.
